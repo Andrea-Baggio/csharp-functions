@@ -17,3 +17,16 @@ int Quadrato(int numero)
     int result = numero * numero;
     return result;
 }
+
+
+int[] ElevaArrayAlQuadrato(int[] array)
+{
+    int[] copiaArray = (int[])array.Clone();
+    
+    for (int i = 0; i < copiaArray.Length; i++)
+    {
+        copiaArray[i] = copiaArray[i] * copiaArray[i];
+    }
+
+    return copiaArray;
+}
