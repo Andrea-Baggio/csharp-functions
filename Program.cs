@@ -16,6 +16,13 @@ int arraySomma = sommaElementiArray(array);
 Console.WriteLine(arraySomma);
 Console.WriteLine();
 
+Console.WriteLine("La somma di tutti i numeri elevati al quadrato è: ");
+int somma = sommaElementiArray(array);
+int quadratoSomma = Quadrato(somma);
+Console.WriteLine(quadratoSomma);
+Console.WriteLine();
+
+
 void StampaArray(int[] array)
 {
     Console.Write("[");
