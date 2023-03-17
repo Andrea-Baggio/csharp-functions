@@ -2,16 +2,19 @@
 int[] array = { 2, 6, 7, 5, 3, 9 };
 Console.WriteLine(string.Join(", ", array));
 
-Console.WriteLine("Array con la prima funzione: ");
+Console.WriteLine("Applicazione della prima funzione: ");
 StampaArray(array);
 Console.WriteLine();
 
-Console.WriteLine("Array con la seconda funzione: ");
+Console.WriteLine("Applicazione della seconda funzione: ");
 int[] arrayAlQuadrato = ElevaArrayAlQuadrato(array);
 StampaArray(arrayAlQuadrato);
 Console.WriteLine();
 
-
+Console.WriteLine("Applicazione della terza funzione: ");
+int arraySomma = sommaElementiArray(array);
+Console.WriteLine(arraySomma);
+Console.WriteLine();
 
 void StampaArray(int[] array)
 {
