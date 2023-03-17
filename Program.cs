@@ -10,7 +10,7 @@ static void StampaArray(int[] num)
         if (i != num.Length - 1)
         {
             Console.Write(", ");
-        }
+        } 
     }
     Console.Write("]");
 }
